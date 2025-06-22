@@ -4,7 +4,7 @@ This project analyzes real-world donation data made to not-for-profit organizati
 
 ---
 
-## 🚀 Project Objectives
+## Completion Criteria
 
 - Clean and preprocess raw fundraising donation data
 - Normalize data and design a relational model in 3NF
@@ -14,15 +14,16 @@ This project analyzes real-world donation data made to not-for-profit organizati
 
 ---
 
-## 🗂️ Dataset Overview
+## Dataset Overview
 
-**File Name:** `donations-to-not-for-profit-organizations-affiliated-with-elected-officials.csv`  
-**Source:** Public fundraising data (uploaded manually)  
+**Source:** [Donations Dataset](https://data.world/city-of-ny/dx8z-6nev)
+
 **Key Columns:**
 - Donation ID
-- Donor Name, City, State
+- Donor Name, Donors_city_of_residence, Donors_state_of_residence
 - Date of Donation
-- Donation Amount / In-Kind Value
+- Donation Amount
+- Value_of_in_kind_donation / Description_of_in_kind_donation
 - Organization Name
 - Elected Official Name / Title
 
